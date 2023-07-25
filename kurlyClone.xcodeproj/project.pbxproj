@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5298AF6A2A7021EC009ADC28 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF692A7021EC009ADC28 /* Constant.swift */; };
+		5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF6F2A7029FF009ADC28 /* UserModel.swift */; };
+		5298AF742A702C37009ADC28 /* dummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5298AF732A702C37009ADC28 /* dummyData.json */; };
 		52A2D7012A6FC8420031FF8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2D7002A6FC8420031FF8E /* AppDelegate.swift */; };
 		52A2D7032A6FC8420031FF8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2D7022A6FC8420031FF8E /* SceneDelegate.swift */; };
 		52A2D7052A6FC8420031FF8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2D7042A6FC8420031FF8E /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5298AF692A7021EC009ADC28 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5298AF6F2A7029FF009ADC28 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		5298AF732A702C37009ADC28 /* dummyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummyData.json; sourceTree = "<group>"; };
 		52A2D6FD2A6FC8420031FF8E /* kurlyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kurlyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A2D7002A6FC8420031FF8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A2D7022A6FC8420031FF8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5298AF682A7021C9009ADC28 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5298AF692A7021EC009ADC28 /* Constant.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		5298AF6B2A702209009ADC28 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5298AF6C2A70225A009ADC28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5298AF6E2A7029DB009ADC28 /* User */,
+				5298AF732A702C37009ADC28 /* dummyData.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5298AF6E2A7029DB009ADC28 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				5298AF6F2A7029FF009ADC28 /* UserModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		5298AF752A702D81009ADC28 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5298AF762A702D89009ADC28 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		52A2D6F42A6FC8420031FF8E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +110,11 @@
 		52A2D6FF2A6FC8420031FF8E /* kurlyClone */ = {
 			isa = PBXGroup;
 			children = (
+				5298AF6C2A70225A009ADC28 /* Models */,
+				5298AF762A702D89009ADC28 /* ViewControllers */,
+				5298AF752A702D81009ADC28 /* Managers */,
+				5298AF682A7021C9009ADC28 /* Config */,
+				5298AF6B2A702209009ADC28 /* Util */,
 				52A2D7002A6FC8420031FF8E /* AppDelegate.swift */,
 				52A2D7022A6FC8420031FF8E /* SceneDelegate.swift */,
 				52A2D7042A6FC8420031FF8E /* ViewController.swift */,
@@ -129,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A2D7102A6FC8430031FF8E /* LaunchScreen.storyboard in Resources */,
+				5298AF742A702C37009ADC28 /* dummyData.json in Resources */,
 				52A2D70D2A6FC8430031FF8E /* Assets.xcassets in Resources */,
 				52A2D7082A6FC8420031FF8E /* Main.storyboard in Resources */,
 			);
@@ -143,7 +201,9 @@
 			files = (
 				52A2D7052A6FC8420031FF8E /* ViewController.swift in Sources */,
 				52A2D7012A6FC8420031FF8E /* AppDelegate.swift in Sources */,
+				5298AF6A2A7021EC009ADC28 /* Constant.swift in Sources */,
 				52A2D7032A6FC8420031FF8E /* SceneDelegate.swift in Sources */,
+				5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */,
 				52A2D70B2A6FC8420031FF8E /* kurlyClone.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
