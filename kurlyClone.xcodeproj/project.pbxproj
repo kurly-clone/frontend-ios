@@ -10,7 +10,8 @@
 		5298AF6A2A7021EC009ADC28 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF692A7021EC009ADC28 /* Constant.swift */; };
 		5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF6F2A7029FF009ADC28 /* UserModel.swift */; };
 		5298AF742A702C37009ADC28 /* dummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5298AF732A702C37009ADC28 /* dummyData.json */; };
-		5298AF9F2A799F1F009ADC28 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF9E2A799F1F009ADC28 /* UIColor+Ext.swift */; };
+		5298AF782A7034B7009ADC28 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF772A7034B7009ADC28 /* TabBarController.swift */; };
+		5298AF7B2A703720009ADC28 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF7A2A703720009ADC28 /* HomeVC.swift */; };
 		52A2D7012A6FC8420031FF8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2D7002A6FC8420031FF8E /* AppDelegate.swift */; };
 		52A2D7032A6FC8420031FF8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2D7022A6FC8420031FF8E /* SceneDelegate.swift */; };
 		52A2D7052A6FC8420031FF8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2D7042A6FC8420031FF8E /* ViewController.swift */; };
@@ -24,7 +25,8 @@
 		5298AF692A7021EC009ADC28 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		5298AF6F2A7029FF009ADC28 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		5298AF732A702C37009ADC28 /* dummyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummyData.json; sourceTree = "<group>"; };
-		5298AF9E2A799F1F009ADC28 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		5298AF772A7034B7009ADC28 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		5298AF7A2A703720009ADC28 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		52A2D6FD2A6FC8420031FF8E /* kurlyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kurlyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A2D7002A6FC8420031FF8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A2D7022A6FC8420031FF8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,16 +92,18 @@
 		5298AF762A702D89009ADC28 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5298AF792A703707009ADC28 /* Home */,
+				5298AF772A7034B7009ADC28 /* TabBarController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		5298AF9D2A799F0A009ADC28 /* Extensions */ = {
+		5298AF792A703707009ADC28 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				5298AF9E2A799F1F009ADC28 /* UIColor+Ext.swift */,
+				5298AF7A2A703720009ADC28 /* HomeVC.swift */,
 			);
-			path = Extensions;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		52A2D6F42A6FC8420031FF8E = {
@@ -212,9 +216,11 @@
 			files = (
 				5298AF9F2A799F1F009ADC28 /* UIColor+Ext.swift in Sources */,
 				52A2D7052A6FC8420031FF8E /* ViewController.swift in Sources */,
+				5298AF7B2A703720009ADC28 /* HomeVC.swift in Sources */,
 				52A2D7012A6FC8420031FF8E /* AppDelegate.swift in Sources */,
 				5298AF6A2A7021EC009ADC28 /* Constant.swift in Sources */,
 				52A2D7032A6FC8420031FF8E /* SceneDelegate.swift in Sources */,
+				5298AF782A7034B7009ADC28 /* TabBarController.swift in Sources */,
 				5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */,
 				52A2D70B2A6FC8420031FF8E /* kurlyClone.xcdatamodeld in Sources */,
 			);
