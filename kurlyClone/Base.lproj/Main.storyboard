@@ -15,6 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="standardAppearance"/>
                     </tabBar>
                     <connections>
                         <segue destination="5Ae-EE-jRb" kind="relationship" relationship="viewControllers" id="s6o-7t-OML"/>
@@ -28,11 +29,11 @@
             </objects>
             <point key="canvasLocation" x="-1465" y="-129"/>
         </scene>
-        <!--마이컬리-->
+        <!--Navigation Controller-->
         <scene sceneID="QTA-IL-cJj">
             <objects>
                 <navigationController id="mUD-U8-1dN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="마이컬리" image="person.crop.circle" catalog="system" id="Dga-Rh-4zB"/>
+                    <tabBarItem key="tabBarItem" title="" image="person.crop.circle" catalog="system" id="Dga-Rh-4zB"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ujc-Jd-gkT">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -45,11 +46,11 @@
             </objects>
             <point key="canvasLocation" x="956" y="715"/>
         </scene>
-        <!--카테고리-->
+        <!--Navigation Controller-->
         <scene sceneID="5fB-ju-x05">
             <objects>
                 <navigationController id="d2F-aT-iH9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="카테고리" image="line.3.horizontal" catalog="system" id="PPh-T8-lHk"/>
+                    <tabBarItem key="tabBarItem" title="" image="line.3.horizontal" catalog="system" id="PPh-T8-lHk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iyy-ky-oCG">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -62,11 +63,11 @@
             </objects>
             <point key="canvasLocation" x="-1466" y="716"/>
         </scene>
-        <!--홈-->
+        <!--Navigation Controller-->
         <scene sceneID="Zu9-xt-ZGm">
             <objects>
                 <navigationController id="5Ae-EE-jRb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="홈" image="house" catalog="system" id="dIt-3r-vTh"/>
+                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="dIt-3r-vTh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jjv-ap-bF6">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -79,11 +80,11 @@
             </objects>
             <point key="canvasLocation" x="-4085" y="692"/>
         </scene>
-        <!--컬리로그-->
+        <!--Navigation Controller-->
         <scene sceneID="llS-69-1bw">
             <objects>
                 <navigationController id="od5-WD-QjH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="컬리로그" image="number" catalog="system" id="ge6-RD-sgZ"/>
+                    <tabBarItem key="tabBarItem" title="" image="number" catalog="system" id="ge6-RD-sgZ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eem-m8-dT9">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -113,7 +114,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lHJ-LS-j7V"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="HF4-jx-l4a"/>
                 </viewController>
@@ -138,7 +139,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="n5D-5a-pbJ"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="VSE-Lb-n9L"/>
                 </viewController>
@@ -221,11 +222,11 @@
             </objects>
             <point key="canvasLocation" x="976" y="1520"/>
         </scene>
-        <!--검색-->
+        <!--Navigation Controller-->
         <scene sceneID="g3q-oN-mEh">
             <objects>
                 <navigationController id="1gj-7R-O2R" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="검색" image="magnifyingglass" catalog="system" id="6Z2-7P-Jj3"/>
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="6Z2-7P-Jj3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NPe-bf-qUJ">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

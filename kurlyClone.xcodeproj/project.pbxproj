@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		528BAF272A79A8ED00ED179E /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BAF262A79A8ED00ED179E /* CustomTabBarItem.swift */; };
+		528BAF292A79A94C00ED179E /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BAF282A79A94C00ED179E /* UIImage+Ext.swift */; };
 		5298AF6A2A7021EC009ADC28 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF692A7021EC009ADC28 /* Constant.swift */; };
 		5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF6F2A7029FF009ADC28 /* UserModel.swift */; };
 		5298AF742A702C37009ADC28 /* dummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5298AF732A702C37009ADC28 /* dummyData.json */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		528BAF262A79A8ED00ED179E /* CustomTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
+		528BAF282A79A94C00ED179E /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		5298AF692A7021EC009ADC28 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		5298AF6F2A7029FF009ADC28 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		5298AF732A702C37009ADC28 /* dummyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummyData.json; sourceTree = "<group>"; };
@@ -59,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		528BAF252A79A8D500ED179E /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				528BAF262A79A8ED00ED179E /* CustomTabBarItem.swift */,
+			);
+			path = CustomComponents;
+			sourceTree = "<group>";
+		};
 		5298AF682A7021C9009ADC28 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,12 +114,8 @@
 		5298AF762A702D89009ADC28 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				5298AFAA2A79A484009ADC28 /* MyPage */,
-				5298AFA92A79A47D009ADC28 /* Search */,
-				5298AFA82A79A474009ADC28 /* Category */,
-				5298AFA52A79A43F009ADC28 /* Log */,
-				5298AF792A703707009ADC28 /* Home */,
 				5298AF772A7034B7009ADC28 /* TabBarController.swift */,
+				5298AFB32A79A564009ADC28 /* PageViewControllers */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -124,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				5298AFA32A79A3E0009ADC28 /* UIColor+Ext.swift */,
+				528BAF282A79A94C00ED179E /* UIImage+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -142,6 +151,7 @@
 				5298AFAD2A79A4AA009ADC28 /* CategoryVC.swift */,
 			);
 			name = Category;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		5298AFA92A79A47D009ADC28 /* Search */ = {
@@ -158,6 +168,18 @@
 				5298AFB12A79A4BF009ADC28 /* MyPageVC.swift */,
 			);
 			path = MyPage;
+			sourceTree = "<group>";
+		};
+		5298AFB32A79A564009ADC28 /* PageViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5298AFAA2A79A484009ADC28 /* MyPage */,
+				5298AFA92A79A47D009ADC28 /* Search */,
+				5298AFA82A79A474009ADC28 /* Category */,
+				5298AFA52A79A43F009ADC28 /* Log */,
+				5298AF792A703707009ADC28 /* Home */,
+			);
+			path = PageViewControllers;
 			sourceTree = "<group>";
 		};
 		52A2D6F42A6FC8420031FF8E = {
@@ -179,6 +201,7 @@
 		52A2D6FF2A6FC8420031FF8E /* kurlyClone */ = {
 			isa = PBXGroup;
 			children = (
+				528BAF252A79A8D500ED179E /* CustomComponents */,
 				5298AF6C2A70225A009ADC28 /* Models */,
 				5298AF762A702D89009ADC28 /* ViewControllers */,
 				5298AF752A702D81009ADC28 /* Managers */,
@@ -268,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528BAF292A79A94C00ED179E /* UIImage+Ext.swift in Sources */,
 				5298AFB02A79A4B5009ADC28 /* SearchVC.swift in Sources */,
 				52A2D7052A6FC8420031FF8E /* ViewController.swift in Sources */,
 				5298AFB22A79A4BF009ADC28 /* MyPageVC.swift in Sources */,
@@ -277,6 +301,7 @@
 				52A2D7032A6FC8420031FF8E /* SceneDelegate.swift in Sources */,
 				5298AFAE2A79A4AA009ADC28 /* CategoryVC.swift in Sources */,
 				5298AF782A7034B7009ADC28 /* TabBarController.swift in Sources */,
+				528BAF272A79A8ED00ED179E /* CustomTabBarItem.swift in Sources */,
 				5298AFA42A79A3E0009ADC28 /* UIColor+Ext.swift in Sources */,
 				5298AFAC2A79A49D009ADC28 /* LogVC.swift in Sources */,
 				5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */,

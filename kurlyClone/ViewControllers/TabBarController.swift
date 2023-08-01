@@ -12,18 +12,34 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        customizeTabBar()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+	private func customizeTabBar() {
+		// Tab Bar color setting
+		self.tabBar.backgroundColor = .white
+		self.tabBar.tintColor = .mainPurple
+		self.tabBar.unselectedItemTintColor = .primary
+		
+		// Tab Bar Size Setting
+		self.tabBar.frame.size.height = 84
+		let tabIconSize = CGSize(width: 25, height: 25)
+		
+		// tabBar Icon
+		if let tabBarItems = tabBar.items{
+			tabBarItems[0].image = UIImage(named: "home")?.resize(to: tabIconSize)
+			tabBarItems[0].selectedImage = UIImage(named: "home.fill")?.resize(to: tabIconSize)
+			
+			tabBarItems[1].image = UIImage(named: "hash")?.resize(to: tabIconSize)
+			
+			tabBarItems[2].image = UIImage(named: "menu")?.resize(to: tabIconSize)
+			
+			tabBarItems[3].image = UIImage(named: "search")?.resize(to: tabIconSize)
+			
+			tabBarItems[4].image = UIImage(named: "person")?.resize(to: tabIconSize)
+			tabBarItems[4].selectedImage = UIImage(named: "person.fill")?.resize(to: tabIconSize)
+		}
+		
+	}
 
 }
