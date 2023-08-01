@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		528BAF272A79A8ED00ED179E /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BAF262A79A8ED00ED179E /* CustomTabBarItem.swift */; };
 		528BAF292A79A94C00ED179E /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BAF282A79A94C00ED179E /* UIImage+Ext.swift */; };
 		5298AF6A2A7021EC009ADC28 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF692A7021EC009ADC28 /* Constant.swift */; };
 		5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF6F2A7029FF009ADC28 /* UserModel.swift */; };
@@ -29,7 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		528BAF262A79A8ED00ED179E /* CustomTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
 		528BAF282A79A94C00ED179E /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		5298AF692A7021EC009ADC28 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		5298AF6F2A7029FF009ADC28 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -63,14 +61,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		528BAF252A79A8D500ED179E /* CustomComponents */ = {
-			isa = PBXGroup;
-			children = (
-				528BAF262A79A8ED00ED179E /* CustomTabBarItem.swift */,
-			);
-			path = CustomComponents;
-			sourceTree = "<group>";
-		};
 		5298AF682A7021C9009ADC28 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,7 +191,6 @@
 		52A2D6FF2A6FC8420031FF8E /* kurlyClone */ = {
 			isa = PBXGroup;
 			children = (
-				528BAF252A79A8D500ED179E /* CustomComponents */,
 				5298AF6C2A70225A009ADC28 /* Models */,
 				5298AF762A702D89009ADC28 /* ViewControllers */,
 				5298AF752A702D81009ADC28 /* Managers */,
@@ -301,7 +290,6 @@
 				52A2D7032A6FC8420031FF8E /* SceneDelegate.swift in Sources */,
 				5298AFAE2A79A4AA009ADC28 /* CategoryVC.swift in Sources */,
 				5298AF782A7034B7009ADC28 /* TabBarController.swift in Sources */,
-				528BAF272A79A8ED00ED179E /* CustomTabBarItem.swift in Sources */,
 				5298AFA42A79A3E0009ADC28 /* UIColor+Ext.swift in Sources */,
 				5298AFAC2A79A49D009ADC28 /* LogVC.swift in Sources */,
 				5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */,
