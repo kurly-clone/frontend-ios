@@ -12,6 +12,11 @@
 		5298AF742A702C37009ADC28 /* dummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5298AF732A702C37009ADC28 /* dummyData.json */; };
 		5298AF782A7034B7009ADC28 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF772A7034B7009ADC28 /* TabBarController.swift */; };
 		5298AF7B2A703720009ADC28 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF7A2A703720009ADC28 /* HomeVC.swift */; };
+		5298AFA42A79A3E0009ADC28 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AFA32A79A3E0009ADC28 /* UIColor+Ext.swift */; };
+		5298AFAC2A79A49D009ADC28 /* LogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AFAB2A79A49D009ADC28 /* LogVC.swift */; };
+		5298AFAE2A79A4AA009ADC28 /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AFAD2A79A4AA009ADC28 /* CategoryVC.swift */; };
+		5298AFB02A79A4B5009ADC28 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AFAF2A79A4B5009ADC28 /* SearchVC.swift */; };
+		5298AFB22A79A4BF009ADC28 /* MyPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AFB12A79A4BF009ADC28 /* MyPageVC.swift */; };
 		52A2D7012A6FC8420031FF8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2D7002A6FC8420031FF8E /* AppDelegate.swift */; };
 		52A2D7032A6FC8420031FF8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2D7022A6FC8420031FF8E /* SceneDelegate.swift */; };
 		52A2D7052A6FC8420031FF8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2D7042A6FC8420031FF8E /* ViewController.swift */; };
@@ -27,6 +32,11 @@
 		5298AF732A702C37009ADC28 /* dummyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummyData.json; sourceTree = "<group>"; };
 		5298AF772A7034B7009ADC28 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		5298AF7A2A703720009ADC28 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		5298AFA32A79A3E0009ADC28 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		5298AFAB2A79A49D009ADC28 /* LogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogVC.swift; sourceTree = "<group>"; };
+		5298AFAD2A79A4AA009ADC28 /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
+		5298AFAF2A79A4B5009ADC28 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		5298AFB12A79A4BF009ADC28 /* MyPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageVC.swift; sourceTree = "<group>"; };
 		52A2D6FD2A6FC8420031FF8E /* kurlyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kurlyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A2D7002A6FC8420031FF8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A2D7022A6FC8420031FF8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +70,7 @@
 		5298AF6B2A702209009ADC28 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				5298AF9D2A799F0A009ADC28 /* Extensions */,
+				5298AFA02A79A379009ADC28 /* Extensions */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -92,6 +102,10 @@
 		5298AF762A702D89009ADC28 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5298AFAA2A79A484009ADC28 /* MyPage */,
+				5298AFA92A79A47D009ADC28 /* Search */,
+				5298AFA82A79A474009ADC28 /* Category */,
+				5298AFA52A79A43F009ADC28 /* Log */,
 				5298AF792A703707009ADC28 /* Home */,
 				5298AF772A7034B7009ADC28 /* TabBarController.swift */,
 			);
@@ -104,6 +118,46 @@
 				5298AF7A2A703720009ADC28 /* HomeVC.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		5298AFA02A79A379009ADC28 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5298AFA32A79A3E0009ADC28 /* UIColor+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5298AFA52A79A43F009ADC28 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				5298AFAB2A79A49D009ADC28 /* LogVC.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		5298AFA82A79A474009ADC28 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5298AFAD2A79A4AA009ADC28 /* CategoryVC.swift */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		5298AFA92A79A47D009ADC28 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5298AFAF2A79A4B5009ADC28 /* SearchVC.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		5298AFAA2A79A484009ADC28 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				5298AFB12A79A4BF009ADC28 /* MyPageVC.swift */,
+			);
+			path = MyPage;
 			sourceTree = "<group>";
 		};
 		52A2D6F42A6FC8420031FF8E = {
@@ -214,13 +268,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5298AF9F2A799F1F009ADC28 /* UIColor+Ext.swift in Sources */,
+				5298AFB02A79A4B5009ADC28 /* SearchVC.swift in Sources */,
 				52A2D7052A6FC8420031FF8E /* ViewController.swift in Sources */,
+				5298AFB22A79A4BF009ADC28 /* MyPageVC.swift in Sources */,
 				5298AF7B2A703720009ADC28 /* HomeVC.swift in Sources */,
 				52A2D7012A6FC8420031FF8E /* AppDelegate.swift in Sources */,
 				5298AF6A2A7021EC009ADC28 /* Constant.swift in Sources */,
 				52A2D7032A6FC8420031FF8E /* SceneDelegate.swift in Sources */,
+				5298AFAE2A79A4AA009ADC28 /* CategoryVC.swift in Sources */,
 				5298AF782A7034B7009ADC28 /* TabBarController.swift in Sources */,
+				5298AFA42A79A3E0009ADC28 /* UIColor+Ext.swift in Sources */,
+				5298AFAC2A79A49D009ADC28 /* LogVC.swift in Sources */,
 				5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */,
 				52A2D70B2A6FC8420031FF8E /* kurlyClone.xcdatamodeld in Sources */,
 			);

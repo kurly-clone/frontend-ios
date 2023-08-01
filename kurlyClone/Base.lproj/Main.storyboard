@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -122,10 +121,10 @@
             </objects>
             <point key="canvasLocation" x="-4086" y="1521"/>
         </scene>
-        <!--View Controller-->
+        <!--LogVC-->
         <scene sceneID="h2N-W7-Ii4">
             <objects>
-                <viewController id="PSl-Gz-VmZ" sceneMemberID="viewController">
+                <viewController id="PSl-Gz-VmZ" customClass="LogVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lno-Mh-ZCY">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -147,10 +146,10 @@
             </objects>
             <point key="canvasLocation" x="-2764" y="1520"/>
         </scene>
-        <!--View Controller-->
+        <!--CategoryVC-->
         <scene sceneID="krS-u0-dw1">
             <objects>
-                <viewController id="Dmo-D5-jsV" sceneMemberID="viewController">
+                <viewController id="Dmo-D5-jsV" customClass="CategoryVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xos-Cn-1ZO">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -172,10 +171,10 @@
             </objects>
             <point key="canvasLocation" x="-1466" y="1520"/>
         </scene>
-        <!--View Controller-->
+        <!--SearchVC-->
         <scene sceneID="4hs-Fq-QX4">
             <objects>
-                <viewController id="gLp-Ng-R9o" sceneMemberID="viewController">
+                <viewController id="gLp-Ng-R9o" customClass="SearchVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="26C-lE-YbB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -197,10 +196,10 @@
             </objects>
             <point key="canvasLocation" x="-219" y="1520"/>
         </scene>
-        <!--View Controller-->
+        <!--My PageVC-->
         <scene sceneID="eY5-S1-xr6">
             <objects>
-                <viewController id="Qw8-7U-ber" sceneMemberID="viewController">
+                <viewController id="Qw8-7U-ber" customClass="MyPageVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0gp-o7-5uH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
