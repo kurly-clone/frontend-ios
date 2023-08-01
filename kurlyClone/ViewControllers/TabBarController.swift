@@ -41,5 +41,17 @@ class TabBarController: UITabBarController {
 		}
 		
 	}
+	
+	// divider 추가
+	override func viewWillLayoutSubviews() {
+		super.viewWillLayoutSubviews()
+		
+		let divider = CALayer()
+		divider.borderWidth = CGFloat(0.5)
+		divider.borderColor = UIColor.lightGray.cgColor
+		divider.frame = CGRect(x: 0, y: -1, width: self.tabBar.frame.width, height: 0.5)
+		
+		self.tabBar.layer.addSublayer(divider)
+	}
 
 }
