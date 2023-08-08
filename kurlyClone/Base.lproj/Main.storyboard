@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -239,6 +240,141 @@
             </objects>
             <point key="canvasLocation" x="-219" y="715"/>
         </scene>
+        <!--Special PriceVC-->
+        <scene sceneID="FKn-Ix-qH7">
+            <objects>
+                <viewController id="wn5-9v-dIj" customClass="SpecialPriceVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r97-z3-5Qq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="특가/혜택" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4R-UQ-bwY">
+                                <rect key="frame" x="136" y="406.66666666666669" width="121" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="daq-0y-Ekf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="i4R-UQ-bwY" firstAttribute="centerX" secondItem="r97-z3-5Qq" secondAttribute="centerX" id="2P1-1e-KVL"/>
+                            <constraint firstItem="i4R-UQ-bwY" firstAttribute="centerY" secondItem="r97-z3-5Qq" secondAttribute="centerY" id="W5y-GP-Aer"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vbx-Ne-I3j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4086" y="2207"/>
+        </scene>
+        <!--New ProductVC-->
+        <scene sceneID="MO3-ZS-SZ1">
+            <objects>
+                <viewController id="FEN-uT-9lk" customClass="NewProductVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yzE-EP-QBm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="신상품" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XiS-fI-wEh">
+                                <rect key="frame" x="154.66666666666666" y="406.66666666666669" width="84" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="omA-0a-brq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XiS-fI-wEh" firstAttribute="centerY" secondItem="yzE-EP-QBm" secondAttribute="centerY" id="1Wn-gP-KkW"/>
+                            <constraint firstItem="XiS-fI-wEh" firstAttribute="centerX" secondItem="yzE-EP-QBm" secondAttribute="centerX" id="cdE-J5-Vxn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0tZ-Im-ITP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6318" y="2208"/>
+        </scene>
+        <!--BestVC-->
+        <scene sceneID="9zU-z0-r6d">
+            <objects>
+                <viewController id="tyt-Sj-VeL" customClass="BestVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ohb-TE-Lt8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="베스트" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmh-Vf-upN">
+                                <rect key="frame" x="154.66666666666666" y="406.66666666666669" width="84" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="J93-a6-DlH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jmh-Vf-upN" firstAttribute="centerX" secondItem="Ohb-TE-Lt8" secondAttribute="centerX" id="P4a-tr-BgD"/>
+                            <constraint firstItem="jmh-Vf-upN" firstAttribute="centerY" secondItem="Ohb-TE-Lt8" secondAttribute="centerY" id="XYr-fc-2WC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3tW-K9-2Gn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5579" y="2207"/>
+        </scene>
+        <!--SalesVC-->
+        <scene sceneID="Sj8-Or-IFi">
+            <objects>
+                <viewController id="3ea-Lo-Mdf" customClass="SalesVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wtd-96-RdP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="알뜰쇼핑" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHd-LM-hLS">
+                                <rect key="frame" x="141" y="406.66666666666669" width="111" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JMl-0K-KDK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dHd-LM-hLS" firstAttribute="centerX" secondItem="Wtd-96-RdP" secondAttribute="centerX" id="pon-VV-jat"/>
+                            <constraint firstItem="dHd-LM-hLS" firstAttribute="centerY" secondItem="Wtd-96-RdP" secondAttribute="centerY" id="rq4-NR-ssv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G4t-U0-6wb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4834" y="2207"/>
+        </scene>
+        <!--Special PriceVC-->
+        <scene sceneID="oWe-On-n7I">
+            <objects>
+                <viewController id="faF-Sf-kEm" customClass="SpecialPriceVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Dx-r8-7bt">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="컬리추천" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgD-dM-Vzi">
+                                <rect key="frame" x="141" y="406.66666666666669" width="111" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NNC-2P-4ky"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CgD-dM-Vzi" firstAttribute="centerX" secondItem="6Dx-r8-7bt" secondAttribute="centerX" id="jVw-wQ-lDG"/>
+                            <constraint firstItem="CgD-dM-Vzi" firstAttribute="centerY" secondItem="6Dx-r8-7bt" secondAttribute="centerY" id="vCm-St-IiF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eXN-Tp-rID" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7066" y="2208"/>
+        </scene>
     </scenes>
     <resources>
         <image name="house" catalog="system" width="128" height="104"/>
@@ -246,5 +382,8 @@
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="number" catalog="system" width="128" height="123"/>
         <image name="person.crop.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
