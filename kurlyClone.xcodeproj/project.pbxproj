@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0A19662A8E6C1D000AFE0E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0A19652A8E6C1D000AFE0E /* Product.swift */; };
+		3D0A196F2A8E89B2000AFE0E /* Api_Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0A196E2A8E89B2000AFE0E /* Api_Result.swift */; };
+		3D0A19712A8E9A30000AFE0E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0A19702A8E9A30000AFE0E /* Constants.swift */; };
 		528BAF292A79A94C00ED179E /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BAF282A79A94C00ED179E /* UIImage+Ext.swift */; };
 		5298AF6A2A7021EC009ADC28 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF692A7021EC009ADC28 /* Constant.swift */; };
-		5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF6F2A7029FF009ADC28 /* UserModel.swift */; };
+		5298AF702A7029FF009ADC28 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF6F2A7029FF009ADC28 /* User.swift */; };
 		5298AF742A702C37009ADC28 /* dummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5298AF732A702C37009ADC28 /* dummyData.json */; };
 		5298AF782A7034B7009ADC28 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF772A7034B7009ADC28 /* TabBarController.swift */; };
 		5298AF7B2A703720009ADC28 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF7A2A703720009ADC28 /* HomeVC.swift */; };
@@ -28,9 +31,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D0A19652A8E6C1D000AFE0E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3D0A196E2A8E89B2000AFE0E /* Api_Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_Result.swift; sourceTree = "<group>"; };
+		3D0A19702A8E9A30000AFE0E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		528BAF282A79A94C00ED179E /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		5298AF692A7021EC009ADC28 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		5298AF6F2A7029FF009ADC28 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		5298AF6F2A7029FF009ADC28 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5298AF732A702C37009ADC28 /* dummyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummyData.json; sourceTree = "<group>"; };
 		5298AF772A7034B7009ADC28 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		5298AF7A2A703720009ADC28 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -61,6 +67,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0A19642A8E6C09000AFE0E /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				3D0A19652A8E6C1D000AFE0E /* Product.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		3D0A196D2A8E899E000AFE0E /* Api_Result */ = {
+			isa = PBXGroup;
+			children = (
+				3D0A196E2A8E89B2000AFE0E /* Api_Result.swift */,
+			);
+			path = Api_Result;
+			sourceTree = "<group>";
+		};
 		5298AF682A7021C9009ADC28 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,8 +102,11 @@
 		5298AF6C2A70225A009ADC28 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3D0A196D2A8E899E000AFE0E /* Api_Result */,
+				3D0A19642A8E6C09000AFE0E /* Product */,
 				5298AF6E2A7029DB009ADC28 /* User */,
 				5298AF732A702C37009ADC28 /* dummyData.json */,
+				3D0A19702A8E9A30000AFE0E /* Constants.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -89,7 +114,7 @@
 		5298AF6E2A7029DB009ADC28 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				5298AF6F2A7029FF009ADC28 /* UserModel.swift */,
+				5298AF6F2A7029FF009ADC28 /* User.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -199,9 +224,9 @@
 				52A2D7002A6FC8420031FF8E /* AppDelegate.swift */,
 				52A2D7022A6FC8420031FF8E /* SceneDelegate.swift */,
 				52A2D7042A6FC8420031FF8E /* ViewController.swift */,
-				52A2D7062A6FC8420031FF8E /* Main.storyboard */,
 				52A2D70C2A6FC8430031FF8E /* Assets.xcassets */,
 				52A2D70E2A6FC8430031FF8E /* LaunchScreen.storyboard */,
+				52A2D7062A6FC8420031FF8E /* Main.storyboard */,
 				52A2D7112A6FC8430031FF8E /* Info.plist */,
 				52A2D7092A6FC8420031FF8E /* kurlyClone.xcdatamodeld */,
 			);
@@ -281,18 +306,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				528BAF292A79A94C00ED179E /* UIImage+Ext.swift in Sources */,
+				3D0A19712A8E9A30000AFE0E /* Constants.swift in Sources */,
 				5298AFB02A79A4B5009ADC28 /* SearchVC.swift in Sources */,
 				52A2D7052A6FC8420031FF8E /* ViewController.swift in Sources */,
 				5298AFB22A79A4BF009ADC28 /* MyPageVC.swift in Sources */,
+				3D0A19662A8E6C1D000AFE0E /* Product.swift in Sources */,
 				5298AF7B2A703720009ADC28 /* HomeVC.swift in Sources */,
 				52A2D7012A6FC8420031FF8E /* AppDelegate.swift in Sources */,
 				5298AF6A2A7021EC009ADC28 /* Constant.swift in Sources */,
 				52A2D7032A6FC8420031FF8E /* SceneDelegate.swift in Sources */,
 				5298AFAE2A79A4AA009ADC28 /* CategoryVC.swift in Sources */,
 				5298AF782A7034B7009ADC28 /* TabBarController.swift in Sources */,
+				3D0A196F2A8E89B2000AFE0E /* Api_Result.swift in Sources */,
 				5298AFA42A79A3E0009ADC28 /* UIColor+Ext.swift in Sources */,
 				5298AFAC2A79A49D009ADC28 /* LogVC.swift in Sources */,
-				5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */,
+				5298AF702A7029FF009ADC28 /* User.swift in Sources */,
 				52A2D70B2A6FC8420031FF8E /* kurlyClone.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
