@@ -12,9 +12,9 @@ import Tabman
 class HomeVC: TabmanViewController {
 	
 	private var viewControllers: Array<UIViewController> = []
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
 		
 		// add viewControllers
 		let storyboard = self.storyboard
@@ -37,12 +37,33 @@ class HomeVC: TabmanViewController {
 		let bar = setBar()
 		
 		// Add to view
-				addBar(bar, dataSource: self, at: .top)
-        
-    }
+		addBar(bar, dataSource: self, at: .top)
+		
+	}
 	
 	func setBar() -> TMBar.ButtonBar {
 		let bar = TMBar.ButtonBar()
+		
+		// tabbar layout
+		bar.layout.transitionStyle = .snap
+		bar.layout.alignment = .centerDistributed
+		bar.layout.contentMode = .intrinsic
+		bar.layout.interButtonSpacing = 26 // 버튼 사이 간격
+		bar.layout.contentInset = UIEdgeInsets(top: 3, left: 0, bottom: 0, right: 0) // 전체 layout 간격
+		
+		// customize button item
+		bar.buttons.customize { (button) in
+			button.tintColor = .secondary
+			button.selectedTintColor = .mainPurple
+			button.font = UIFont.systemFont(ofSize: 15)
+		}
+		
+		// customize indicator
+		bar.indicator.weight = .custom(value: 3)
+		bar.indicator.overscrollBehavior = .bounce
+		bar.indicator.tintColor = .mainPurple
+		
+		
 		
 		return bar
 	}
