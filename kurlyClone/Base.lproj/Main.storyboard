@@ -105,15 +105,6 @@
                     <view key="view" contentMode="scaleToFill" id="Gxb-Jp-Ddb">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vm5-U0-0Mh">
-                                <rect key="frame" x="155" y="408" width="84" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lHJ-LS-j7V"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -243,7 +234,7 @@
         <!--Special PriceVC-->
         <scene sceneID="FKn-Ix-qH7">
             <objects>
-                <viewController id="wn5-9v-dIj" customClass="SpecialPriceVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SpecialPriceVC" id="wn5-9v-dIj" customClass="SpecialPriceVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r97-z3-5Qq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -270,7 +261,7 @@
         <!--New ProductVC-->
         <scene sceneID="MO3-ZS-SZ1">
             <objects>
-                <viewController id="FEN-uT-9lk" customClass="NewProductVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NewProductVC" id="FEN-uT-9lk" customClass="NewProductVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yzE-EP-QBm">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -297,7 +288,7 @@
         <!--BestVC-->
         <scene sceneID="9zU-z0-r6d">
             <objects>
-                <viewController id="tyt-Sj-VeL" customClass="BestVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BestVC" id="tyt-Sj-VeL" customClass="BestVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ohb-TE-Lt8">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -324,7 +315,7 @@
         <!--SalesVC-->
         <scene sceneID="Sj8-Or-IFi">
             <objects>
-                <viewController id="3ea-Lo-Mdf" customClass="SalesVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SalesVC" id="3ea-Lo-Mdf" customClass="SalesVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wtd-96-RdP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -348,10 +339,10 @@
             </objects>
             <point key="canvasLocation" x="-4834" y="2207"/>
         </scene>
-        <!--Special PriceVC-->
+        <!--Kurly RecommendationVC-->
         <scene sceneID="oWe-On-n7I">
             <objects>
-                <viewController id="faF-Sf-kEm" customClass="SpecialPriceVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KurlyRecommendationVC" id="faF-Sf-kEm" customClass="KurlyRecommendationVC" customModule="kurlyClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Dx-r8-7bt">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
