@@ -48,6 +48,7 @@ class HomeVC: TabmanViewController {
 		bar.layout.transitionStyle = .snap
 		bar.layout.alignment = .centerDistributed
 		bar.layout.contentMode = .intrinsic
+		bar.backgroundColor = .white
 		bar.layout.interButtonSpacing = 26 // 버튼 사이 간격
 		bar.layout.contentInset = UIEdgeInsets(top: 3, left: 0, bottom: 0, right: 0) // 전체 layout 간격
 		
