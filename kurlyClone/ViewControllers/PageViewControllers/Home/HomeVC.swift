@@ -39,6 +39,18 @@ class HomeVC: TabmanViewController {
 		// Add to view
 		addBar(bar, dataSource: self, at: .top)
 		
+		// Custom NavigationBar 추가
+		let customNavigationBar = CustomNavigationBar()
+		
+		view.addSubview(customNavigationBar)
+		
+		customNavigationBar.translatesAutoresizingMaskIntoConstraints = false
+		NSLayoutConstraint.activate([
+			customNavigationBar.topAnchor.constraint(equalTo: view.topAnchor),
+			customNavigationBar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+			customNavigationBar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+			customNavigationBar.bottomAnchor.constraint(equalTo: bar.topAnchor)
+		])
 	}
 	
 	func setBar() -> TMBar.ButtonBar {
@@ -64,10 +76,10 @@ class HomeVC: TabmanViewController {
 		bar.indicator.overscrollBehavior = .bounce
 		bar.indicator.tintColor = .mainPurple
 		
-		
-		
 		return bar
 	}
+
+
 }
 
 extension HomeVC: PageboyViewControllerDataSource, TMBarDataSource {

@@ -31,6 +31,7 @@
 		52A2D70B2A6FC8420031FF8E /* kurlyClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52A2D7092A6FC8420031FF8E /* kurlyClone.xcdatamodeld */; };
 		52A2D70D2A6FC8430031FF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A2D70C2A6FC8430031FF8E /* Assets.xcassets */; };
 		52A2D7102A6FC8430031FF8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A2D70E2A6FC8430031FF8E /* LaunchScreen.storyboard */; };
+		52C67A462A93E7FD006CF065 /* CutsomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C67A452A93E7FD006CF065 /* CutsomNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		52A2D70C2A6FC8430031FF8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A2D70F2A6FC8430031FF8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A2D7112A6FC8430031FF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C67A452A93E7FD006CF065 /* CutsomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutsomNavigationBar.swift; sourceTree = "<group>"; };
 		57115CAB3CEDDF05252B856A /* Pods-kurlyClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kurlyClone.debug.xcconfig"; path = "Target Support Files/Pods-kurlyClone/Pods-kurlyClone.debug.xcconfig"; sourceTree = "<group>"; };
 		5A706B7C2F5375A40DDAC9E5 /* Pods-kurlyClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kurlyClone.release.xcconfig"; path = "Target Support Files/Pods-kurlyClone/Pods-kurlyClone.release.xcconfig"; sourceTree = "<group>"; };
 		9871A05AF1A6AE187B509A20 /* Pods_kurlyClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kurlyClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -213,6 +215,7 @@
 		52A2D6FF2A6FC8420031FF8E /* kurlyClone */ = {
 			isa = PBXGroup;
 			children = (
+				52C67A442A93E7DA006CF065 /* Components */,
 				5298AF6C2A70225A009ADC28 /* Models */,
 				5298AF762A702D89009ADC28 /* ViewControllers */,
 				5298AF752A702D81009ADC28 /* Managers */,
@@ -230,13 +233,20 @@
 			path = kurlyClone;
 			sourceTree = "<group>";
 		};
+		52C67A442A93E7DA006CF065 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				52C67A452A93E7FD006CF065 /* CutsomNavigationBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		7A630FA9CA2EDB7178619884 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				57115CAB3CEDDF05252B856A /* Pods-kurlyClone.debug.xcconfig */,
 				5A706B7C2F5375A40DDAC9E5 /* Pods-kurlyClone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -381,6 +391,7 @@
 				5298AFA42A79A3E0009ADC28 /* UIColor+Ext.swift in Sources */,
 				5298AFAC2A79A49D009ADC28 /* LogVC.swift in Sources */,
 				5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */,
+				52C67A462A93E7FD006CF065 /* CutsomNavigationBar.swift in Sources */,
 				528BAF332A827AF800ED179E /* SpecialPriceVC.swift in Sources */,
 				52A2D70B2A6FC8420031FF8E /* kurlyClone.xcdatamodeld in Sources */,
 			);
