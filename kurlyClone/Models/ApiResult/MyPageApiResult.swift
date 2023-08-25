@@ -1,64 +1,25 @@
 //
-//  Api_Result.swift
+//  MyPageApiResult.swift
 //  kurlyClone
 //
-//  Created by 고성민 on 2023/08/15.
+//  Created by 고성민 on 2023/08/25.
 //
 
 import Foundation
 
-// MARK: - API Result
-struct ProductsResult: Codable {
-    let products: [Product]
-}
-
-struct DailySaleResult: Codable {
-    let start_time: Date
-    let products: [Product]
-}
-
-struct FilteredResult: Codable {
-    let product_count: Int
-    let products: [Product]
-}
-
+// MARK: - 장바구니 정보
 struct CartResult: Codable {
     let delivery_address: String
     let products: [Product]
 }
 
-struct ProductReviewResult {
-    let id: Int
-    let text: String
-    let helpful_count: Int
-    let created_at: Date
-    
-    struct User {
-        let id: Int
-        let name: String
-        let grade: String
-    }
-}
-
-struct ProductInquiryResult {
-    let id: Int
-    let title: String
-    let question: String
-    let answer: String
-    let is_secret: Bool
-    let created_at: Date
-    
-    struct User {
-        let id: Int
-        let name: String
-    }
-}
-
+// MARK: - 주문서 정보
 struct OrderFormResult {
     let delivery_address: String
     let products: [Product]
+    let user: OrderFormUser
     
-    struct User {
+    struct OrderFormUser {
         let id: Int
         let name: String
         let phone_number: String
@@ -66,6 +27,7 @@ struct OrderFormResult {
     }
 }
 
+// MARK: - 주문 내역
 struct OrderHistoryResult {
     let order_logs: [OrderLog]
         
@@ -76,12 +38,14 @@ struct OrderHistoryResult {
         let brand: String
         let price: Int
         let discount_price: Int
+        let image: String
         let count: Int
         let date: Date
-        let image: String // 확인해봐야함
+
     }
 }
 
+// MARK: - 결제 정보
 struct PaymentInfoResult {
     let products: [Product]
     let used_point: Int
@@ -97,7 +61,7 @@ struct PaymentInfoResult {
     }
 }
 
-
+// MARK: - 적립 내역
 struct PointTransactionResult {
     let reward_point: Int
     let reward_logs: [RewardLog]

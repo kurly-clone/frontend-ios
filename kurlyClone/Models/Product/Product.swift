@@ -7,20 +7,22 @@
 
 import Foundation
 
-// MARK: -
+// MARK: - Product Model
 struct Product: Codable {
     let id: Int
     let name: String
     let delivery_type: String
     let brand: String
     let price: Int
+    let review_count: Int
     let discount_price: Int
-    let reviews: Int
-    let image: String //변경필요
-    let detail: ProductDetail
+    let image: String
+    let detail: ProductDetail?
 }
 
 struct ProductDetail: Codable {
+    let is_favorite: Bool
+    let detail_image: [String]
     let has_reward: Bool
     let seller: String
     let short_description: String
@@ -30,5 +32,4 @@ struct ProductDetail: Codable {
     let origin: String
     let allergy: String
     let expiration_date: String
-    let description: String // image들로 이루어진 것 두 개 존재필요
 }
