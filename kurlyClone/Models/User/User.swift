@@ -37,12 +37,6 @@ struct UserAuth {
     let access_token: Int
 }
 
-struct DeliveryInfo {
-
-    let delivery_complete_message: String
-}
-
-
 struct Coupon {
     let id: Int
     let title: String

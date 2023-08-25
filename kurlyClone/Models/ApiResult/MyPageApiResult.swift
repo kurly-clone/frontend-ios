@@ -48,14 +48,15 @@ struct OrderHistoryResult {
 // MARK: - 결제 정보
 struct PaymentInfoResult {
     let products: [Product]
+    let delivery_request: [DeliveryInfo]
     let used_point: Int
-    let final_payment_number: Int
+    let final_payment: Int
     
     struct DeliveryInfo {
         let is_main: Bool
         let reciever_name: String
         let phone_number: String
-        let receive_place: String // LocationType으로 enum 만들지 고민
+        let receive_place: String
         let receive_place_detail: String
         let delivery_complete_message: String
     }

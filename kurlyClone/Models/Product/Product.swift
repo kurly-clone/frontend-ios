@@ -14,7 +14,7 @@ struct Product: Codable {
     let delivery_type: String
     let brand: String
     let price: Int
-    let review_count: Int
+    let review_count: Int?
     let discount_price: Int
     let image: String
     let detail: ProductDetail?
@@ -22,7 +22,7 @@ struct Product: Codable {
 
 struct ProductDetail: Codable {
     let is_favorite: Bool
-    let detail_image: [String]
+    let detail_images: [String]
     let has_reward: Bool
     let seller: String
     let short_description: String
