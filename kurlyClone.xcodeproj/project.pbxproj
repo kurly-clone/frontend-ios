@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		297740EDE1F90F35387BD957 /* Pods_kurlyClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9871A05AF1A6AE187B509A20 /* Pods_kurlyClone.framework */; };
+		3D62106D2A98B73000C8F21D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6210642A98B73000C8F21D /* Constants.swift */; };
+		3D62106E2A98B73000C8F21D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6210662A98B73000C8F21D /* Product.swift */; };
+		3D62106F2A98B73000C8F21D /* MyPageApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6210682A98B73000C8F21D /* MyPageApiResult.swift */; };
+		3D6210702A98B73000C8F21D /* ProductApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6210692A98B73000C8F21D /* ProductApiResult.swift */; };
+		3D6210712A98B73000C8F21D /* AuthApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62106A2A98B73000C8F21D /* AuthApiResult.swift */; };
+		3D6210722A98B73000C8F21D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62106C2A98B73000C8F21D /* User.swift */; };
 		528BAF292A79A94C00ED179E /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BAF282A79A94C00ED179E /* UIImage+Ext.swift */; };
 		528BAF2B2A8279A800ED179E /* KurlyRecommendationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BAF2A2A8279A800ED179E /* KurlyRecommendationVC.swift */; };
 		528BAF2D2A827A7800ED179E /* NewProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BAF2C2A827A7800ED179E /* NewProductVC.swift */; };
@@ -15,7 +21,6 @@
 		528BAF312A827ADB00ED179E /* SalesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BAF302A827ADB00ED179E /* SalesVC.swift */; };
 		528BAF332A827AF800ED179E /* SpecialPriceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BAF322A827AF800ED179E /* SpecialPriceVC.swift */; };
 		5298AF6A2A7021EC009ADC28 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF692A7021EC009ADC28 /* Constant.swift */; };
-		5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF6F2A7029FF009ADC28 /* UserModel.swift */; };
 		5298AF742A702C37009ADC28 /* dummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5298AF732A702C37009ADC28 /* dummyData.json */; };
 		5298AF782A7034B7009ADC28 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF772A7034B7009ADC28 /* TabBarController.swift */; };
 		5298AF7B2A703720009ADC28 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5298AF7A2A703720009ADC28 /* HomeVC.swift */; };
@@ -34,6 +39,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D6210642A98B73000C8F21D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../../../MKCC_Front/kurlyClone/Models/Constants.swift; sourceTree = "<group>"; };
+		3D6210662A98B73000C8F21D /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3D6210682A98B73000C8F21D /* MyPageApiResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageApiResult.swift; sourceTree = "<group>"; };
+		3D6210692A98B73000C8F21D /* ProductApiResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductApiResult.swift; sourceTree = "<group>"; };
+		3D62106A2A98B73000C8F21D /* AuthApiResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthApiResult.swift; sourceTree = "<group>"; };
+		3D62106C2A98B73000C8F21D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		528BAF282A79A94C00ED179E /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		528BAF2A2A8279A800ED179E /* KurlyRecommendationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurlyRecommendationVC.swift; sourceTree = "<group>"; };
 		528BAF2C2A827A7800ED179E /* NewProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProductVC.swift; sourceTree = "<group>"; };
@@ -41,7 +52,6 @@
 		528BAF302A827ADB00ED179E /* SalesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesVC.swift; sourceTree = "<group>"; };
 		528BAF322A827AF800ED179E /* SpecialPriceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialPriceVC.swift; sourceTree = "<group>"; };
 		5298AF692A7021EC009ADC28 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		5298AF6F2A7029FF009ADC28 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		5298AF732A702C37009ADC28 /* dummyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dummyData.json; sourceTree = "<group>"; };
 		5298AF772A7034B7009ADC28 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		5298AF7A2A703720009ADC28 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -76,6 +86,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D6210652A98B73000C8F21D /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				3D6210662A98B73000C8F21D /* Product.swift */,
+			);
+			name = Product;
+			path = ../../../../MKCC_Front/kurlyClone/Models/Product;
+			sourceTree = "<group>";
+		};
+		3D6210672A98B73000C8F21D /* ApiResult */ = {
+			isa = PBXGroup;
+			children = (
+				3D6210682A98B73000C8F21D /* MyPageApiResult.swift */,
+				3D6210692A98B73000C8F21D /* ProductApiResult.swift */,
+				3D62106A2A98B73000C8F21D /* AuthApiResult.swift */,
+			);
+			name = ApiResult;
+			path = ../../../../MKCC_Front/kurlyClone/Models/ApiResult;
+			sourceTree = "<group>";
+		};
+		3D62106B2A98B73000C8F21D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3D62106C2A98B73000C8F21D /* User.swift */,
+			);
+			name = User;
+			path = ../../../../MKCC_Front/kurlyClone/Models/User;
+			sourceTree = "<group>";
+		};
 		5298AF682A7021C9009ADC28 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,18 +134,13 @@
 		5298AF6C2A70225A009ADC28 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5298AF6E2A7029DB009ADC28 /* User */,
+				3D6210672A98B73000C8F21D /* ApiResult */,
+				3D6210642A98B73000C8F21D /* Constants.swift */,
+				3D6210652A98B73000C8F21D /* Product */,
+				3D62106B2A98B73000C8F21D /* User */,
 				5298AF732A702C37009ADC28 /* dummyData.json */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		5298AF6E2A7029DB009ADC28 /* User */ = {
-			isa = PBXGroup;
-			children = (
-				5298AF6F2A7029FF009ADC28 /* UserModel.swift */,
-			);
-			path = User;
 			sourceTree = "<group>";
 		};
 		5298AF752A702D81009ADC28 /* Managers */ = {
@@ -236,7 +270,6 @@
 				57115CAB3CEDDF05252B856A /* Pods-kurlyClone.debug.xcconfig */,
 				5A706B7C2F5375A40DDAC9E5 /* Pods-kurlyClone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -365,14 +398,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				528BAF292A79A94C00ED179E /* UIImage+Ext.swift in Sources */,
+				3D62106D2A98B73000C8F21D /* Constants.swift in Sources */,
 				528BAF2D2A827A7800ED179E /* NewProductVC.swift in Sources */,
 				5298AFB02A79A4B5009ADC28 /* SearchVC.swift in Sources */,
 				52A2D7052A6FC8420031FF8E /* ViewController.swift in Sources */,
 				5298AFB22A79A4BF009ADC28 /* MyPageVC.swift in Sources */,
 				528BAF2F2A827AAF00ED179E /* BestVC.swift in Sources */,
+				3D62106F2A98B73000C8F21D /* MyPageApiResult.swift in Sources */,
 				5298AF7B2A703720009ADC28 /* HomeVC.swift in Sources */,
 				52A2D7012A6FC8420031FF8E /* AppDelegate.swift in Sources */,
 				5298AF6A2A7021EC009ADC28 /* Constant.swift in Sources */,
+				3D6210702A98B73000C8F21D /* ProductApiResult.swift in Sources */,
 				528BAF312A827ADB00ED179E /* SalesVC.swift in Sources */,
 				52A2D7032A6FC8420031FF8E /* SceneDelegate.swift in Sources */,
 				5298AFAE2A79A4AA009ADC28 /* CategoryVC.swift in Sources */,
@@ -380,8 +416,10 @@
 				528BAF2B2A8279A800ED179E /* KurlyRecommendationVC.swift in Sources */,
 				5298AFA42A79A3E0009ADC28 /* UIColor+Ext.swift in Sources */,
 				5298AFAC2A79A49D009ADC28 /* LogVC.swift in Sources */,
-				5298AF702A7029FF009ADC28 /* UserModel.swift in Sources */,
+				3D62106E2A98B73000C8F21D /* Product.swift in Sources */,
+				3D6210722A98B73000C8F21D /* User.swift in Sources */,
 				528BAF332A827AF800ED179E /* SpecialPriceVC.swift in Sources */,
+				3D6210712A98B73000C8F21D /* AuthApiResult.swift in Sources */,
 				52A2D70B2A6FC8420031FF8E /* kurlyClone.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
