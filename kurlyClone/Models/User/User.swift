@@ -12,24 +12,24 @@ struct UserInfo {
     let id: Int
     let name: String
     let email: String
-    let phone_number: Int
+    let phoneNumber: Int
     let gender: String
     let birthday: Date
-    let delivery_locations: [DeliveryLocation]
+    let deliveryLocations: [DeliveryLocation]
     
     let grade: String
-    let reward_point: Int
-    let marketing_option: [String] // enum
-    let refferer_id: String
+    let rewardPoint: Int
+    let marketingOption: [String] // enum
+    let reffererId: String
     let coupons: [Coupon]
     
     struct DeliveryLocation {
-        let is_main: Bool
-        let reciever_name: String
-        let phone_number: String
+        let isMain: Bool
+        let recieverName: String
+        let phoneNumber: String
         let destination: String
-        let destination_detail: String
-        let delivery_type: String
+        let destinationDetail: String
+        let deliveryTtype: String
     }
 }
 
@@ -41,7 +41,7 @@ struct Coupon {
     let id: Int
     let title: String
     let discount: Int
-    let minimum_purchase_amount: Int
+    let minimumPurchaseAmount: Int
     let applicableProduct: String
     let applicableBrand: String
     let expirationDate: Date
