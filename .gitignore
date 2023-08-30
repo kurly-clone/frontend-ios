@@ -1,2 +1,4 @@
+# General
 *.xcuserstate
 kurlyClone.xcodeproj/project.xcworkspace/xcuserdata/yeeun.xcuserdatad/UserInterfaceState.xcuserstate
+.DS_Store
