@@ -29,7 +29,7 @@ struct UserInfo {
         let phoneNumber: String
         let destination: String
         let destinationDetail: String
-        let deliveryTtype: String
+        let deliveryType: String
     }
 }
 
