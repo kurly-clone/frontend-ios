@@ -1,5 +1,5 @@
 //
-//  MyPageApiResult.swift
+//  MyPageApiResponse.swift
 //  kurlyClone
 //
 //  Created by 고성민 on 2023/08/25.
@@ -8,13 +8,13 @@
 import Foundation
 
 // MARK: - 장바구니 정보
-struct CartResult: Codable {
+struct CartResponse: Codable {
     let delivery_address: String
     let products: [Product]
 }
 
 // MARK: - 주문서 정보
-struct OrderFormResult {
+struct OrderFormResponse {
     let delivery_address: String
     let products: [Product]
     let user: OrderFormUser
@@ -28,7 +28,7 @@ struct OrderFormResult {
 }
 
 // MARK: - 주문 내역
-struct OrderHistoryResult {
+struct OrderHistoryResponse {
     let order_logs: [OrderLog]
         
     struct OrderLog {
@@ -46,7 +46,7 @@ struct OrderHistoryResult {
 }
 
 // MARK: - 결제 정보
-struct PaymentInfoResult {
+struct PaymentInfoResponse {
     let products: [Product]
     let delivery_request: [DeliveryInfo]
     let used_point: Int
@@ -63,7 +63,7 @@ struct PaymentInfoResult {
 }
 
 // MARK: - 적립 내역
-struct PointTransactionResult {
+struct PointTransactionResponse {
     let reward_point: Int
     let reward_logs: [RewardLog]
     

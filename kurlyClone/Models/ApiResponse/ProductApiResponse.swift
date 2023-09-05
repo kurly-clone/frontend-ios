@@ -1,5 +1,5 @@
 //
-//  ProductApiResult.swift
+//  ProductApiResopnse.swift
 //  kurlyClone
 //
 //  Created by 고성민 on 2023/08/25.
@@ -9,24 +9,24 @@ import Foundation
 import UIKit
 
 // MARK: - 전송상품 정보 및 상품 상세정보
-struct ProductResult: Codable {
+struct ProductResponse: Codable {
     let product: Product
 }
 
 // MARK: - 일일특가 상품
-struct DailySaleResult: Codable {
+struct DailySaleResponse: Codable {
     let start_time: Date
     let products: [Product]
 }
 
 // MARK: - 필터링된 상품 정보
-struct FilteredResult: Codable {
+struct FilteredResponse: Codable {
     let products_count: Int
     let products: [Product]
 }
 
 // MARK: - 상품 후기정보
-struct ProductReviewResult {
+struct ProductReviewResponse {
     let id: Int
     let user: ReviewUser
     let text: String
@@ -42,7 +42,7 @@ struct ProductReviewResult {
 }
 
 // MARK: - 상품 문의정보
-struct ProductInquiryResult {
+struct ProductInquiryResponse {
     let id: Int
     let user: InquiryUser
     let title: String
